@@ -7,11 +7,13 @@ nav {
   grid-template-columns: auto auto auto auto;
   justify-content: space-evenly;
 }
+
 .menu-navegacion li {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
 }
+
 .menu-navegacion a {
   color: whitesmoke;
   font-size: 20px;
