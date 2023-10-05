@@ -1,0 +1,26 @@
+/* fonts.css */
+
+@font-face {
+  font-family: "Alef";
+  src: url("../public/Alef/Alef-Bold.ttf") format("truetype"),
+    url("../public/Alef/Alef-Regular.ttf") format("truetype");
+
+  /* font-family: 'Alef', sans-serif; */
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("../public/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf")
+      format("truetype"),
+    url("../public/Archivo/Archivo-VariableFont_wdth,wght.ttf")
+      format("truetype");
+
+  /* font-family: 'Archivo', sans-serif; */
+}
+@font-face {
+  font-family: "Amiko";
+  src: url("../public/Amiko/Amiko-Bold.ttf") format("truetype"),
+    url("../public/Amiko/Amiko-Regular.ttf") format("truetype"),
+    url("../public/Amiko/Amiko-SemiBold.ttf") format("truetype");
+
+  /* font-family: 'Amiko', sans-serif; */
+}

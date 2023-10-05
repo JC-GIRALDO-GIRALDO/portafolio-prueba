@@ -1,0 +1,39 @@
+footer {
+  background: linear-gradient(to right, #0e1c26, #2a454b, #0e1c26);
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.contacto {
+  display: flex;
+  justify-content: center;
+}
+.redes-sociales {
+  text-align: center;
+  border-right: 1px solid white;
+  padding: 5px;
+}
+.contactos-persona {
+  text-align: center;
+  border-left: 1px solid white;
+  padding: 5px;
+}
+.contacto img {
+  width: 60px;
+  margin-top: 1rem;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.contacto h3 {
+  margin-top: 1rem;
+  color: aliceblue;
+  font-size: 30px;
+  padding: 5px;
+}
+.copy {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}

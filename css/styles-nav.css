@@ -1,0 +1,24 @@
+nav {
+  width: 100%;
+  background: linear-gradient(to left, #08203e, #60696b, #08203e);
+}
+.menu-navegacion {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+}
+.menu-navegacion li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.menu-navegacion a {
+  color: whitesmoke;
+  font-size: 20px;
+  transition: 200ms;
+}
+.menu-navegacion a:hover {
+  color: #f4711f;
+  border-bottom: 2px solid whitesmoke;
+  transition: 200ms;
+}

@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  #container {
+    max-width: 100%;
+  }
+
+  header {
+    background: linear-gradient(to right, #0e1c26, #0e1c26, #0e1c26);
+    position: fixed;
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+  }
+  .menu-navegacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-navegacion li {
+    text-align: center;
+    background-color: #0e1c26;
+    border-bottom: 2px solid white;
+  }
+  .menu-navegacion a {
+    color: whitesmoke;
+    font-size: 20px;
+    transition: 200ms;
+  }
+}

@@ -1,0 +1,215 @@
+main {
+  margin-top: 11rem;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  background-color: whitesmoke;
+}
+
+/* Contenido de la pagina principal */
+#contenido-inicio {
+  background-color: whitesmoke;
+  width: 100%;
+  margin: 0.5rem auto;
+  display: grid;
+  grid-template-areas: "foto-perfil contenido-perfil";
+  grid-template-columns: 1fr 3fr;
+}
+
+/* foto de perfil */
+.foto-perfil {
+  grid-area: foto-perfil;
+  width: 100%;
+}
+.foto-perfil img {
+  margin-top: 5rem;
+  margin-left: 6rem;
+  width: 500px;
+}
+
+/* contenido del perfil */
+.contenido-perfil {
+  grid-area: contenido-perfil;
+  width: 100%;
+}
+.texto {
+  margin-left: 5rem;
+}
+.parte-1 {
+  margin-top: 8rem;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+}
+.parte-2 {
+  color: #f4711f;
+  font-size: 50px;
+  line-height: 1;
+}
+.parte-3 {
+  color: #f4711f;
+  font-size: 60px;
+  line-height: 1;
+}
+.parte-4 {
+  margin-top: 1rem;
+  color: black;
+  font-size: 20px;
+  line-height: 1;
+}
+.parte-4 span {
+  color: black;
+  font-size: 30px;
+}
+.descarga-cv {
+  width: 200px;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  display: grid;
+  grid-template-areas: "h3 img";
+}
+.descarga-cv h3 {
+  grid-area: h3;
+  margin-top: 1rem;
+  text-align: center;
+}
+.descarga-cv img {
+  grid-area: img;
+  width: 50px;
+}
+#trabajosperson {
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+  margin-top: 4rem;
+  color: #f4711f;
+  font-size: 30px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+/* contenido de trabajos o proyectos realizados */
+#trabajos {
+  background-color: whitesmoke;
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.proyectos {
+  padding: 20px;
+  margin: 1rem auto;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 0 #333;
+  transition: 500ms;
+}
+.proyectos:hover {
+  width: 24%;
+  transition: 500ms;
+  box-shadow: 5px 5px 10px 0 red;
+}
+.proyectos img {
+  border-radius: 20px;
+  max-width: 100%;
+  height: 200px;
+  border: 3px solid red;
+}
+.proyectos h3 {
+  margin-top: 1.5rem;
+  font-size: 30px;
+  color: #f4711f;
+  font-family: "Alef", sans-serif;
+}
+.proyectos p {
+  margin-bottom: 2rem;
+  justify-content: space-evenly;
+  font-size: 25px;
+  font-family: "Alef", sans-serif;
+}
+.proyectos a {
+  font-size: 20px;
+  margin: 0 auto;
+  width: 55%;
+  background-color: #f4711f;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 40px;
+  transition: 500ms;
+}
+.proyectos a:hover {
+  width: 65%;
+  border: 2px solid red;
+  transition: 500ms;
+  font-size: 25px;
+}
+#servicios {
+  background-color: whitesmoke;
+  width: 95%;
+  margin: 2rem auto;
+}
+.cajas-total {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cajas {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: auto;
+  margin: 20px;
+  padding: 15px;
+}
+.cajas img {
+  margin: 1rem auto;
+  width: 80px;
+  height: auto;
+  transition: 500ms;
+}
+.cajas img:hover {
+  width: 100px;
+  height: auto;
+  transition: 500ms;
+}
+.cajas h4 {
+  margin: 0 auto;
+  width: 100%;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+}
+.contenido {
+  margin: 4rem auto;
+  width: 95%;
+  display: flex;
+  background: linear-gradient(to right, #557c93, #08203e);
+}
+.conte-img-anume img {
+  width: 600px;
+}
+.text-contenido h3 {
+  color: whitesmoke;
+  font-size: 30px;
+  margin-top: 5rem;
+  padding: 30px;
+}
+.text-contenido p {
+  color: whitesmoke;
+  font-size: 20px;
+  margin-top: 1rem;
+  padding: 30px;
+}
+.targetas img {
+  width: 900px;
+}

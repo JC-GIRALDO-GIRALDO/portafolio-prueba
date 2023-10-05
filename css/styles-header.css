@@ -1,0 +1,58 @@
+header {
+  background: linear-gradient(to right, #0e1c26, #2a454b, #294861);
+  position: fixed;
+  width: 1600px;
+}
+.logo-nombre {
+  display: flex;
+  justify-content: center;
+}
+
+/* estilos del logo */
+.logo {
+  background: linear-gradient(to left, #638b95, #f4711f);
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.logo h2 {
+  border-top: 2px solid whitesmoke;
+  border-right: 2px solid whitesmoke;
+  text-align: center;
+  margin: 0;
+}
+.logo-j,
+.logo-g {
+  font-family: "Alef", sans-serif;
+  font-style: italic;
+  line-height: 1;
+}
+.logo-j {
+  font-size: 60px;
+  color: whitesmoke;
+}
+.logo-g {
+  font-size: 45px;
+  color: #f4711f;
+}
+
+/* estilis del nombre */
+.nombre {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.nombre-1,
+.nombre-2 {
+  font-size: 40px;
+  font-family: "Alef", sans-serif;
+}
+.nombre-1 {
+  color: whitesmoke;
+}
+.nombre-2 {
+  color: #f4711f;
+}
